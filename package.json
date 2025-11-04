@@ -14,8 +14,7 @@
     "build:bundle": "tsup --config tsup.bundle.config.ts",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
     "type-check": "tsc --noEmit",
-    "version:prompt": "node scripts/version-prompt.js",
-    "prepublishOnly": "npm run version:prompt && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "irl-browser",

@@ -29,7 +29,7 @@ npx serve dist -p 8000
 No automated test suite exists - relies on manual testing via test.html and console inspection.
 
 ### Publishing
-- `npm run prepublishOnly` - Automatically runs build before publishing to npm
+- `npm version <major|minor|patch>` - Automatically runs build before publishing to npm
 - `npm publish` - Publish to npm
 
 ### Multi-User Testing
